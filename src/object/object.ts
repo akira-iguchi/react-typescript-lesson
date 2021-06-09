@@ -43,7 +43,7 @@ export default function objectSample() {
 
   console.log('Object object sample 4:', torahack)
 
-  // インデックスシグネチャ
+  // インデックスシグネチャ（複数のプロパティを持てる）
   const capitals: {
     [countryName: string]: string
   } = {

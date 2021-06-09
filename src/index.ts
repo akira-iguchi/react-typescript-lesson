@@ -21,5 +21,9 @@
 // isUserSignedIn2('ABC')
 
 // オブジェクトの型定義
-import objectSample from './object/object'
-objectSample()
+// import objectSample from './object/object'
+// objectSample()
+
+// 配列の型定義
+import arraySample from './array/array'
+arraySample()
