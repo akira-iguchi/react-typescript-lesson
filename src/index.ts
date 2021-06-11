@@ -25,5 +25,9 @@
 // objectSample()
 
 // 配列の型定義
-import arraySample from './array/array'
-arraySample()
+// import arraySample from './array/array'
+// arraySample()
+
+// ジェネリック型とポリモーフィズム
+import genericSample from './generics/basic'
+genericSample()
