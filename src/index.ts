@@ -29,5 +29,5 @@
 // arraySample()
 
 // ジェネリック型とポリモーフィズム
-import genericSample from './generics/basic'
-genericSample()
+// import genericSample from './generics/basic'
+// genericSample()
