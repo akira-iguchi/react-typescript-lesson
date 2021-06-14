@@ -14,6 +14,7 @@ const TaskItem: React.FC<PROPS> = (props) => {
   const [title, setTitle] = useState(props.title)
 
   const editTask = () => {
+    console.log("ok")
     db.collection("tasks").doc(props.id).set({title: title, merge: true})
   }
   const deleteTask = () => {
